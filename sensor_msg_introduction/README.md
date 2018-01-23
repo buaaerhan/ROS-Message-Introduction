@@ -19,16 +19,17 @@
 		LaserEcho				作为MultiEchoLaserScan的子类型，一般不会单独使用
 		LaserScan				激光扫描数据，此消息类型只适配激光扫描传感器，其它传感器需另定义消息
 		MagneticField			测定给定地点的磁场
-		MultiDOFJointState		
-		MultiEchoLaserScan
-		NavSatFix
-		NavSatStatus
-		PointCloud
-		PointCloud2
-		PointField
-		Range
-		RegionOfInterest
-		Temperature
-		TimeReference
+		MultiDOFJointState		表示多自由度关节的状态
+		MultiEchoLaserScan		多重反馈的激光扫描数据
+		NavSatFix				GPS定位信息，参考系为WGS84
+		NavSatStatus			卫星定位状态，是否定位成功以及所采用的定位系统
+		PointCloud				本消息保存了一系列3D点的位置，以及每个点对应的额外信息
+		PointCloud2				包含一系列N维点，还可能包含一些额外信息，如模、强度等
+		PointField				以PointCloud2中的格式描述点
+		Range					从测距设备中读取的测距信息
+		RegionOfInterest		标定一幅图片中的感兴趣区域
+		RelativeHumidity		从相对湿度计中读取的相对湿度数值
+		Temperature				从温度计中读取的温度值
+		TimeReference			从外部时钟读取的参考时间
 
 
