@@ -1,4 +1,4 @@
-# 消息定义了来自外部时钟的时间基准
+#消息定义了来自外部时钟的时间基准
 
 文件位置: sensor_msgs/TimeReference.msg
 

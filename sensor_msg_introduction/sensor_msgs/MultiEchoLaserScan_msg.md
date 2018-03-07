@@ -1,4 +1,4 @@
-# 从多反射平面激光测距仪器得到的扫描数据
+#从多反射平面激光测距仪器得到的扫描数据
 
 文件位置: sensor_msgs/MultiEchoLaserScan.msg
 
@@ -30,4 +30,3 @@
 		float32 range_max
 		sensor_msgs/LaserEcho[] ranges
 		sensor_msgs/LaserEcho[] intensities
-

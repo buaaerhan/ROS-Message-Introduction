@@ -1,4 +1,4 @@
-# 作为PointCloud消息的自消息类型，用以保存在云中的每个点的附加信息
+#作为PointCloud消息的自消息类型，用以保存在云中的每个点的附加信息
 
 文件位置: sensor_msgs/ChannelFloat32.msg
 

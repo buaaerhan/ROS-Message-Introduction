@@ -1,4 +1,4 @@
-# 消息定义了包含时间和坐标系的速度
+#消息定义了包含时间和坐标系的速度
 
 位置: geometry_msgs/TwistStamped.msg
 
@@ -11,4 +11,3 @@
 
 		std_msgs/Header header
 		geometry_msgs/Twist twist
-
